@@ -58,9 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['composer-install-rese
     "twig/twig":"2.4.4",
     "html2text/html2text": "~4.1.0",
     "szymach/c-pchart":"~3.0.5",
-    "tecnickcom/tcpdf":"~6.2.13",
-    "mso/idna-convert":"~1.1.0",
-    "pclzip/pclzip":"~2.8.2"
+    "tecnickcom/tcpdf":"~6.2.13"
 },</pre>
                 </div>
             </div>
