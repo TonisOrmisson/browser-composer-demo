@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['composer-install-rese
     "tecnickcom/tcpdf":"~6.2.13",
     "mso/idna-convert":"~1.1.0",
     "pclzip/pclzip":"~2.8.2",
-    "codeception/codeception":"dev-master"
+    "codeception/codeception":"~2.3.7"
 },</pre>
                 </div>
             </div>
