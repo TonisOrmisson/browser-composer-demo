@@ -6,6 +6,8 @@ use tonisormisson\browsercomposer\BrowserComposer;
 
 // needs COMPOSER_HOME environment variable set
 $composer = new BrowserComposer();
+
+$json = file_get_contents ('../composer.json');
 ?>
 
 <?php include 'form.php';?>
@@ -21,5 +23,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['composer-install-rese
     $composer->deleteCurrent = true;
 }
 ?>
-<pre id = "composer-installer-container"><?php $composer->run();?></pre>
 
+<div class="container content">
+    <div class="row">
+        <div class="col">
+            <?php include 'form.php';?>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <pre id = "composer-installer-container"><?php $composer->run();?></pre>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h4 class="card-title">The "require" section from composer.json:</h4>
+            <div class="card">
+                <div class="card-block bg-inverse text-white" >
+                    <pre class=" text-white">
+"require": {
+    "php": ">=5.4.0",
+    "andmemasin/yii2-emails-validator":"dev-master"
+},</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+</div>
