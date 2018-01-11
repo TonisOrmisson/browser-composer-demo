@@ -25,6 +25,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['composer-install-rese
 ?>
 
 <div class="container content">
+
+    <div class="row">
+        <div class="col">
+            <h1>Browser-composer demo            <span class="float-right">
+                <a href="https://github.com/TonisOrmisson/browser-composer-demo" class="btn btn-primary">Demo source</a>
+                <a href="https://github.com/TonisOrmisson/browser-composer" class="btn btn-primary">Source</a>
+            </span>
+            </h1>
+        </div>
+    </div>
     <div class="row">
         <div class="col">
             <?php include 'form.php';?>
