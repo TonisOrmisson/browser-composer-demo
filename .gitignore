@@ -4,3 +4,4 @@
 
 vendor/*
 !vendor/.gitkeep
+composer.phar

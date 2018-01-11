@@ -27,6 +27,7 @@ require "vendor/autoload.php";
 
     <!-- Custom styles for this template -->
     <link href="assets/starter-template.css" rel="stylesheet">
+    <link href="assets/composer.css" rel="stylesheet">
   </head>
 
   <body>
