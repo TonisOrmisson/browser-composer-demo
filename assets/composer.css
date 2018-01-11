@@ -1,3 +1,17 @@
+#composer-installer-container{
+    padding: 1em;
+    background-color: black;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
 info{
-    color: #2aabd2;
+    color: #87b913;
+}
+
+comment{
+
+    color: #d59b2e;
+    overflow: scroll;
 }

@@ -1,4 +1,6 @@
 <?php
+require_once 'browser-composer/BrowserComposer.php';
+
 use tonisormisson\browsercomposer\BrowserComposer;
 
 //
@@ -12,7 +14,7 @@ use tonisormisson\browsercomposer\BrowserComposer;
 putenv('COMPOSER_HOME=' . __DIR__ . '/vendor/bin/composer');
 // Improve performance when the xdebug extension is enabled
 putenv('COMPOSER_DISABLE_XDEBUG_WARN=1');
-
-
 $composer = new BrowserComposer();
-$composer->run();
+?>
+<pre id = "composer-installer-container"><?php $composer->run();?></pre>
+

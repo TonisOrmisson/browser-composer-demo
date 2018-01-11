@@ -14,13 +14,22 @@
       "url": "https://asset-packagist.org"
     }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=5.4.0",
+    "andmemasin/yii2-emails-validator":"dev-master"
+
   },
 
   "autoload": {
     "psr-4": {
       "tonisormisson\\browsercomposer\\": "browser-composer"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
     }
   }
 }
