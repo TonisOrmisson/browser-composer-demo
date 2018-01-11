@@ -3,7 +3,7 @@ header("Content-type: text/html");
 header('X-Accel-Buffering: no');
 
 //error_reporting(E_ALL);
-ini_set('display_errors', 0);
+ini_set('display_errors', 1);
 // 600 seconds = 10 minutes
 set_time_limit(600);
 ini_set('max_execution_time', 600);
@@ -44,7 +44,7 @@ if(file_exists ( "vendor/autoload.php" )) require "vendor/autoload.php";
     <div class="container">
 
       <div class="starter-template">
-          <?php include "content.php"?>
+          <?php include "../views/content.php"?>
       </div>
 
     </div><!-- /.container -->

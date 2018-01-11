@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "672ff10398a32abe5cd6f6309e82902d",
+    "content-hash": "3d7464ccb19e8858859594f3c04b8d31",
     "packages": [
         {
             "name": "andmemasin/yii2-emails-validator",
