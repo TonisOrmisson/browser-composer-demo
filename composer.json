@@ -1,0 +1,27 @@
+{
+  "name" : "tonisormisson/browser-composer-demo",
+  "description" : "A browser-based composer installer demo",
+  "license" : "GPL 2.0",
+  "authors" : [{
+    "name" : "Tõnis Ormisson",
+    "email" : "tonis@andmemasin.eu",
+    "role" : "Developer"
+  }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "tonisormisson/browser-composer": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "tonisormisson\\browsercomposer\\": "browser-composer"
+    }
+  }
+}

@@ -1,3 +1,17 @@
+<?php
+header("Content-type: text/html");
+header('X-Accel-Buffering: no');
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+// 600 seconds = 10 minutes
+set_time_limit(600);
+ini_set('max_execution_time', 600);
+// https://getcomposer.org/doc/articles/troubleshooting.md#memory-limit-errors
+ini_set('memory_limit', '-1');
+require "vendor/autoload.php";
+
+?>
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -53,8 +67,7 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+          <?php include "content.php"?>
       </div>
 
     </div><!-- /.container -->

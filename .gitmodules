@@ -1,0 +1,3 @@
+[submodule "browser-composer"]
+	path = browser-composer
+	url = https://github.com/TonisOrmisson/browser-composer/

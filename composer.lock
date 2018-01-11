@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2f672c493d633edc8df6194e2278c198",
+    "packages": [
+        {
+            "name": "tonisormisson/browser-composer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TonisOrmisson/browser-composer.git",
+                "reference": "b0e03672db96bdb6c81d7d58f03439286f6e48dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TonisOrmisson/browser-composer/zipball/b0e03672db96bdb6c81d7d58f03439286f6e48dd",
+                "reference": "b0e03672db96bdb6c81d7d58f03439286f6e48dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tõnis Ormisson",
+                    "email": "tonis@andmemasin.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A browser-based composer installer",
+            "time": "2018-01-11T12:21:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tonisormisson/browser-composer": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
